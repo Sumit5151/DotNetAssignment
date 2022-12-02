@@ -8,7 +8,7 @@ namespace DotNetAssignment.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class StudentsController : ControllerBase
     {
         private readonly IStudentRepository studentRepository;
